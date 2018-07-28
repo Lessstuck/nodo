@@ -1,0 +1,21 @@
+{
+  "name": "laszlo",
+  "description": "more madness",
+  "main": "app.js",
+  "authors": [
+    "Laszlo Storck"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Lessstuck/nodo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1"
+  }
+}
