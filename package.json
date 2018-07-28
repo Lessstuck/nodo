@@ -1,5 +1,5 @@
 {
-  "name": "lesdo",
+  "name": "laszlo",
   "version": "1.0.0",
   "description": "more madness",
   "main": "app.js",
@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Lessstuck/nodo.git"
   },
-  "author": "",
+  "author": "Laszlo Storck",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Lessstuck/nodo/issues"
   },
-  "homepage": "https://github.com/Lessstuck/nodo#readme"
+  "homepage": "https://github.com/Lessstuck/nodo#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
 }
