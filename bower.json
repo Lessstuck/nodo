@@ -1,12 +1,16 @@
 {
-  "name": "laszlo",
-  "description": "more madness",
+  "name": "lez",
+  "description": "madness",
   "main": "app.js",
   "authors": [
-    "Laszlo Storck"
+    "LS"
   ],
   "license": "ISC",
+  "keywords": [
+    "awesomeness"
+  ],
   "homepage": "https://github.com/Lessstuck/nodo",
+  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -14,8 +18,18 @@
     "test",
     "tests"
   ],
+
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1"
-  }
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.3"
+ 
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+      "dist/js/bootstrap.js",
+      "dist/css/bootstrap.min.css",
+      "less/bootstrap.less"
+      ]
+}}
 }
