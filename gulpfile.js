@@ -12,7 +12,8 @@ gulp.task('inject', function()  {
     var wiredep = require('wiredep').stream;
     var options = {
         bowerJson: require('./bower.json'),
-        directory: './bower_components'
+        directory: './bower_components',
+        ignorePath:'../../bower_components'
     }
     
     return gulp.src('./src/views/*.html')
